@@ -1,0 +1,73 @@
+*{font-size: 14px;
+    color: hsl(0, 0%, 100%);
+} 
+html{background-color: hsl(0, 0%, 8%); 
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 100%;
+}
+article{
+    width: 23.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 25%;
+    border-radius: 1rem;
+    padding: 2rem 0 2rem 0;
+}
+.div_img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.div_img img{
+    width: 6rem;
+}
+.location{
+    color: hsl(75, 94%, 57%);
+}
+.option{
+    background-color: hsl(0, 0%, 20%);
+    width: 87.5%;
+    height: 3.25rem;
+    margin-top: 1.25rem;
+    border-radius: .35rem;
+    text-align: center;
+}
+.option:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+.option:hover p{ 
+    color: hsl(0, 0%, 20%);;
+    font-weight: 800;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.fine{
+    font-weight:300;
+}
+.fine2{
+    font-weight:500;
+    font-size: 1.75rem;
+    margin: 2rem 0 0 0;
+}
+
+@media screen and (min-width: 376px) {
+    article{
+      width: 25rem;
+      padding: 3rem 1rem 3rem 1rem;
+    }
+  }
+  
+
+  .attribution { font-size: 11px; text-align: center; margin-top: 3rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
