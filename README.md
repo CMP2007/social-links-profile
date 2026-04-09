@@ -1,5 +1,8 @@
 # Social Links Profile: Foundational UI Exercise
 
+> [!Note]
+>> This repository contains a legacy project from my early days as a programmer
+
 This project is a **historical practice** focused on mastering CSS Flexbox and implementing a strict "Mobile-First" workflow. I preserve it in my portfolio as a record of my early steps in creating clean, responsive, and reusable UI components.
 
 ---
